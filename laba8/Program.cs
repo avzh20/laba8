@@ -20,5 +20,6 @@ class Program
             }
         }
         File.WriteAllText("Outlet.out", count.ToString());
+        Console.WriteLine("Результат записан в файл Outlet.out.");
     }
 }
